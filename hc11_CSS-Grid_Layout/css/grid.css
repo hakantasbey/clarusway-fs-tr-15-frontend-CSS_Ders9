@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 200px 400px 200px;
     grid-template-rows: 200px 400px 200px;
+    justify-content: center;
 }
 
 .content{
@@ -27,6 +28,14 @@
     align-items: center;
 }
 
+.content5{
+    background-image: url("https://picsum.photos/id/685/600/400");
+    background-position: center;
+    background-size: cover;
+    color: red;
+    padding: 10px;
+}
+
 .content6{
   background-image: url("https://picsum.photos/id/1025/600/400");
   background-position: center;
@@ -36,5 +45,7 @@
 }
 
 .content8{
-    background-image: url("./img/owl(1).png");
+    background-image: url("../img/owl.png");
+    background-position: center;
+    background-size: cover;
 }
